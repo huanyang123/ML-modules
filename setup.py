@@ -5,7 +5,7 @@ with open('README.md', 'r') as file:
 
 
 setuptools.setup(
-	name = 'ML-modules', #this should be unique
+	name = 'ml', #this must be unique
 	include_package_data=True,
 	version = '0.1',
 	author = 'Huanwang (Henry) Yang',
