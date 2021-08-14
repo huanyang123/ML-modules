@@ -14,7 +14,16 @@ setuptools.setup(
 	long_description = long_description,
 	long_description_content_type = 'text/markdown',
 	#packages=['modules', 'tests']
-	packages = setuptools.find_packages()
+	#packages = setuptools.find_packages()
+	
+	
+	long_description=read('README'),
+    	classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Topic :: Utilities",
+        "License :: OSI Approved :: BSD License",
+    	]
+
   '''
 	packages = setuptools.find_packages(),
 	classifiers = [
