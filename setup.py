@@ -12,7 +12,9 @@ setuptools.setup(
 	author_email = 'huanwang.yang@gmail.com',
 	description = 'The ML untility modules',
 	long_description = long_description,
-	long_description_content_type = 'text/markdown'
+	long_description_content_type = 'text/markdown',
+	#packages=['modules', 'tests']
+	packages = setuptools.find_packages()
   '''
 	packages = setuptools.find_packages(),
 	classifiers = [
